@@ -5,7 +5,7 @@ local INTERVAL = 5
 local MINDIST = 0.2
 
 -- If player does not move within this time, 'sit' player (in seconds) and label them as afk.
-local TIMEOUT = 30 -- 300 = 5 minutes
+local TIMEOUT = 300 -- 300 = 5 minutes
 
 local time_afk = {} -- a table indexed by plname that indicates the approximate time since last moved
 local last_pos = {} -- a table of position vectors that are indexed by plname
